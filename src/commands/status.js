@@ -8,6 +8,12 @@ export default class Status extends Command {
   static flags = {
     json: flags.boolean({description: 'output in json format'})
   }
+  static help = `Example:
+
+    $heroku status
+    Apps:      No known issues at this time.
+    Data:      No known issues at this time.
+    Tools:     No known issues at this time.`
 
   async run () {
     const moment = require('moment')
