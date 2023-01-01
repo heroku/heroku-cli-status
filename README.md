@@ -83,3 +83,4 @@ OPTIONS
 
 _See code: [src/commands/status.ts](https://github.com/heroku/heroku-cli-status/blob/v5.0.10/src/commands/status.ts)_
 <!-- commandsstop -->
+test
